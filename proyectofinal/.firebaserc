@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "proyecto-final-angular-isc": {
+      "hosting": {
+        "final": [
+          "proyecto-final-angular-isc"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "proyecto-final-angular-isc"
+  }
+}
