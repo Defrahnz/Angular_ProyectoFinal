@@ -1,14 +1,14 @@
 {
   "targets": {
-    "proyecto-final-angular-isc": {
+    "fire-app-b38c2": {
       "hosting": {
-        "final": [
-          "proyecto-final-angular-isc"
+        "proyeto14": [
+          "fire-app-b38c2"
         ]
       }
     }
   },
   "projects": {
-    "default": "proyecto-final-angular-isc"
+    "default": "fire-app-b38c2"
   }
 }

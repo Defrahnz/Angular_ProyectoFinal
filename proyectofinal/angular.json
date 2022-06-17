@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "final": {
+    "proyeto14": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/final",
+            "outputPath": "dist/proyeto14",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -23,13 +23,13 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/@popperjs/core/dist/umd/popper.min.js"
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/popper.js/dist/umd/popper.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },
           "configurations": {
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "final:build:production"
+              "browserTarget": "proyeto14:build:production"
             },
             "development": {
-              "browserTarget": "final:build:development"
+              "browserTarget": "proyeto14:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "final:build"
+            "browserTarget": "proyeto14:build"
           }
         },
         "test": {
@@ -105,15 +105,15 @@
           "options": {
             "prerender": false,
             "ssr": false,
-            "browserTarget": "final:build:production",
-            "firebaseProject": "proyecto-final-angular-isc",
-            "firebaseHostingSite": "proyecto-final-angular-isc"
+            "browserTarget": "proyeto14:build:production",
+            "firebaseProject": "fire-app-b38c2",
+            "firebaseHostingSite": "fire-app-b38c2"
           }
         }
       }
     }
   },
   "cli": {
-    "analytics": "b9ff842a-62dc-4e5e-b78f-7b870650cd73"
+    "analytics": false
   }
 }

@@ -1,7 +1,7 @@
 {
   "hosting": {
-    "target": "final",
-    "public": "dist/final",
+    "target": "proyeto14",
+    "public": "dist/proyeto14",
     "ignore": [
       "**/.*"
     ],
