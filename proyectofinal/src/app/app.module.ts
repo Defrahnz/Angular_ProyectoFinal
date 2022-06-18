@@ -13,6 +13,8 @@ import { environment } from '../environments/environment';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { FaqsComponent } from './complement/faqs/faqs.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
     ContactoComponent,
     AyudaComponent,
     HomeComponent,
+    FaqsComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
