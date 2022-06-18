@@ -16,6 +16,7 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { FaqsComponent } from './complement/faqs/faqs.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { NavbarprincipalComponent } from './shared/navbarprincipal/navbarprincipal.component';
+import { BodyComponent } from './shared/body/body.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { NavbarprincipalComponent } from './shared/navbarprincipal/navbarprincip
     FaqsComponent,
     NavbarComponent,
     NavbarprincipalComponent,
+    BodyComponent,
   ],
   imports: [
     BrowserModule,
